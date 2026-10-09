@@ -1,0 +1,52 @@
+=================================================================
+==44034==ERROR: AddressSanitizer: global-buffer-overflow on address 0x0001047d3b90 at pc 0x000104e6f1b4 bp 0x00016b642100 sp 0x00016b6418b0
+WRITE of size 209 at 0x0001047d3b90 thread T0
+==44034==WARNING: external symbolizer didn't start up correctly!
+==44034==WARNING: Can't write to symbolizer at fd 4
+==44034==WARNING: external symbolizer didn't start up correctly!
+==44034==WARNING: Can't write to symbolizer at fd 5
+==44034==WARNING: external symbolizer didn't start up correctly!
+==44034==WARNING: Can't write to symbolizer at fd 6
+==44034==WARNING: external symbolizer didn't start up correctly!
+==44034==WARNING: Can't write to symbolizer at fd 7
+==44034==WARNING: external symbolizer didn't start up correctly!
+==44034==WARNING: Failed to use and restart external symbolizer!
+    #0 0x000104e6f1b0 in __asan_memcpy+0x324 (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3b1b0)
+    #1 0x0001047c0f80 in process(unsigned char const*)+0x390 (/private/tmp/silica-overflow:arm64+0x100004f80)
+    #2 0x0001047c07a0 in main+0x2e8 (/private/tmp/silica-overflow:arm64+0x1000047a0)
+    #3 0x000181fe4270  (<unknown module>)
+
+0x0001047d3b90 is located 0 bytes after global variable 'response' defined in 'four_cards/src/1_1/src/application.cpp' (0x0001047d3ac0) of size 208
+SUMMARY: AddressSanitizer: global-buffer-overflow (/private/tmp/silica-overflow:arm64+0x100004f80) in process(unsigned char const*)+0x390
+Shadow bytes around the buggy address:
+  0x0001047d3900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0001047d3980: f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9
+  0x0001047d3a00: f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9
+  0x0001047d3a80: 01 f9 f9 f9 00 f9 f9 f9 00 00 00 00 00 00 00 00
+  0x0001047d3b00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0001047d3b80: 00 00[f9]f9 f9 f9 f9 f9 00 00 00 00 00 00 00 00
+  0x0001047d3c00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0001047d3c80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0001047d3d00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0001047d3d80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0001047d3e00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==44034==ABORTING

@@ -1,0 +1,5 @@
+Reference,Value,Quantity,Footprint,LCSC Part #,Notes
+"SW1 SW2 SW3 SW4",TS-1187A-B-A-B,4,6x3.5mm,C318884,"Local footprints SiliCa:SW1 through SW4; use production/BOM.csv for assembly"
+U2,24AA08T-I/SN,1,SOIC-8_3.9x4.9mm_P1.27mm,C2060935,1.7V minimum supply
+"R4 R5",10k,2,0402,C25744,I2C pullups
+C5,100n,1,0402,C1525,EEPROM decoupling

@@ -1,0 +1,7 @@
+(sym_lib_table
+ (lib (name "Connector")(type "KiCad")(uri "${KIPRJMOD}/Connector.kicad_sym")(options "")(descr "Project snapshot"))
+ (lib (name "Device")(type "KiCad")(uri "${KIPRJMOD}/Device.kicad_sym")(options "")(descr "Project snapshot"))
+ (lib (name "MCU_Microchip_ATtiny")(type "KiCad")(uri "${KIPRJMOD}/MCU_Microchip_ATtiny.kicad_sym")(options "")(descr "Project snapshot"))
+ (lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/power.kicad_sym")(options "")(descr "Project snapshot"))
+ (lib (name "SiliCa")(type "KiCad")(uri "${KIPRJMOD}/SiliCa.kicad_sym")(options "")(descr "Project snapshot"))
+)

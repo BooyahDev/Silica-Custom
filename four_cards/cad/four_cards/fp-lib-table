@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "SiliCa") (type "KiCad") (uri "${KIPRJMOD}/SiliCa.pretty") (options "") (descr "COM-08720 manufacturer land drawing")))

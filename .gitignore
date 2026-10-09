@@ -1,0 +1,8 @@
+.DS_Store
+.pio/
+__pycache__/
+*.kicad_prl
+*.lck
+# Local purchasing records and account-specific screenshots.
+four_cards/production/jlcpcb*.jpg
+four_cards/production/QUOTE.md

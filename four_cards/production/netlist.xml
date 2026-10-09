@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>./four_cards/cad/four_cards/four_cards.kicad_sch</source>
+    <date>2026-10-09T00:25:55+0900</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>four_cards.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>Antenna_Loop</value>
+      <footprint>SiliCa:AE1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:AE1</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Antenna_Loop" description="Loop antenna"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="loop antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37b5a8d7-5dfa-4998-9c7b-360b53535912</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>47p</value>
+      <footprint>SiliCa:C1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:C1</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ab83bb8-d8da-4d2e-aba6-3d3149037d8d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>SiliCa:C2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:C2</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eb86d51-bd1a-4bca-8f91-ebcfdbc5cadf</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <footprint>SiliCa:C3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:C3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36b725a3-d822-48c8-ab92-b7ed2c5de517</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1n</value>
+      <footprint>SiliCa:C4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:C4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>249a9644-8984-49ad-be39-057a96018e6a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>SiliCa:C5</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:C5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28e4a3a3-5715-4a53-b5f0-4b4cb4d0b222</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54ST</value>
+      <footprint>SiliCa:D1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:D1</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Dual_Series_AKC_Parallel" description="Dual Schottky diode, anode/cathode/center"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>806bb16d-2fab-4206-92ea-655447939861</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54ST</value>
+      <footprint>SiliCa:D2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:D2</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Dual_Series_AKC_Parallel" description="Dual Schottky diode, anode/cathode/center"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a28c786-7e1a-4121-8f97-73b24ded17a5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>SiliCa:J1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:J1</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed99c02b-07f1-4a89-a816-bd4ff7c9e959</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>SiliCa:R1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:R1</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3a81405-d6d5-4a1f-8f54-a1cc2db60dfc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>SiliCa:R2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:R2</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad9f207d-8a70-47e0-9b95-8981a893385f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>510</value>
+      <footprint>SiliCa:R3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:R3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b831989-022b-4542-b33a-3572e99ef248</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>SiliCa:R4</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:R4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fb9ccc1-8c04-4c5c-aa80-c8862efee813</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>SiliCa:R5</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:R5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d02a4b97-9a03-46c7-a90d-3be48bbd90cc</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>SiliCa:SW1</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:SW1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SiliCa" part="KPT-1187B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7fa0444-f846-496f-a233-6e7d4b6d5d70</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>SiliCa:SW2</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:SW2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SiliCa" part="KPT-1187B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3b4165-137d-42a0-af17-3a216de77b87</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>SiliCa:SW3</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:SW3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SiliCa" part="KPT-1187B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0134ef41-5817-47ec-b5ab-35370ea3dd76</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>SiliCa:SW4</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:SW4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SiliCa" part="KPT-1187B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf787e3-c61e-42a5-aa0f-bac58df051e2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATTINY1616-MNR</value>
+      <footprint>SiliCa:U1</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</datasheet>
+      <fields>
+        <field name="Footprint">SiliCa:U1</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny1616-M" description="20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller tinyAVR"/>
+      <property name="ki_fp_filters" value="VQFN*1EP*3x3mm*P0.4mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8beecf49-a1b0-42ec-b8f1-3af5a9766166</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>24AA08T-I/SN</value>
+      <footprint>SiliCa:U2</footprint>
+      <fields>
+        <field name="Footprint">SiliCa:U2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SiliCa" part="24AA08" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="four_cards.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5a7ca00-3db4-4d32-b917-c8de04a7dd2c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna_Loop">
+      <description>Loop antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Loop</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Loop antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Dual_Series_AKC_Parallel">
+      <description>Dual Schottky diode, anode/cathode/center</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Dual_Series_AKC_Parallel</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Dual Schottky diode, anode/cathode/center</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny1616-M">
+      <description>20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny1616-M</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</field>
+        <field name="Description">20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB5" type="bidirectional"/>
+        <pin num="10" name="PB4" type="bidirectional"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PB2" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PC0" type="bidirectional"/>
+        <pin num="16" name="PC1" type="bidirectional"/>
+        <pin num="17" name="PC2" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="20" name="PA1" type="bidirectional"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SiliCa" part="24AA08">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24AA08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SiliCa" part="KPT-1187B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KPT-1187B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>./four_cards/cad/four_cards/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>./four_cards/cad/four_cards/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>./four_cards/cad/four_cards/MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="SiliCa">
+      <uri>./four_cards/cad/four_cards/SiliCa.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AINN0" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="AINP0" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="CARD1" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="CARD2" class="Default">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="CARD3" class="Default">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="CARD4" class="Default">
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="EXTCLK" class="Default">
+      <node ref="AE1" pin="1" pintype="input"/>
+      <node ref="AE1" pin="2" pintype="input"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+    <net code="9" name="MISO" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="MOSI" class="Default">
+      <node ref="U1" pin="17" pinfunction="PC2" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="SCK" class="Default">
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="SCL" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="13" name="SDA" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="UPDI" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="VCC" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="unconnected-(U1-PB1-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="~{SS}" class="Default">
+      <node ref="U1" pin="18" pinfunction="PC3" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
